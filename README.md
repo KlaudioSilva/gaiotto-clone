@@ -36,4 +36,4 @@ This repository contains a **clone of the website from Gaiotto Materiais para Co
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/KlaudioSilva/gaiotto-clone.git
