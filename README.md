@@ -32,13 +32,6 @@ This repository contains a **clone of the website from Gaiotto Materiais para Co
 
 ---
 
-## 🧾 Licença | License
-
-Este projeto está licenciado sob a MIT License.
-This project is licensed under the MIT License.
-
----
-
 ## ▶️ Como Rodar o Projeto | How to Run the Project
 
 1. **Clone o repositório**
@@ -52,3 +45,11 @@ This project is licensed under the MIT License.
 Este projeto é apenas para fins de estudo e não possui qualquer vínculo com a empresa Gaiotto Materiais para Construção.
 
 This project is for educational purposes only and has no affiliation with Gaiotto Materiais para Construção.
+
+---
+
+## 🧾 Licença | License
+
+Este projeto está licenciado sob a MIT License.
+This project is licensed under the MIT License.
+
