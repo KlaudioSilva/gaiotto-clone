@@ -28,7 +28,14 @@ This repository contains a **clone of the website from Gaiotto Materiais para Co
 
 ## 📸 Preview
 
-*(Adicione aqui uma imagem ou GIF mostrando o visual do projeto ou um link para o GitHub Pages se for publicado)*
+* (Adicionar uma imagem ou mostrando o visual do projeto ou o link do GitHub Pages quando for publicado)*
+
+---
+
+## 🧾 Licença | License
+
+Este projeto está licenciado sob a MIT License.
+This project is licensed under the MIT License.
 
 ---
 
@@ -37,3 +44,11 @@ This repository contains a **clone of the website from Gaiotto Materiais para Co
 1. **Clone o repositório**
    ```bash
    git clone https://github.com/KlaudioSilva/gaiotto-clone.git
+
+---
+
+## ⚠️ Aviso | Disclaimer
+
+Este projeto é apenas para fins de estudo e não possui qualquer vínculo com a empresa Gaiotto Materiais para Construção.
+
+This project is for educational purposes only and has no affiliation with Gaiotto Materiais para Construção.
