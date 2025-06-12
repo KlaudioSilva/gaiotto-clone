@@ -1,0 +1,17 @@
+/***  pre-definindo cores   *******************************************/
+:root{
+    --preto: #000000;
+    --branco: #ffffff;
+    --verde-bg-claro1: #348528;
+    --verde-bg-claro2: #449137;
+    --verde-bg-escuro1: #1f5217;
+    --verde-bg-escuro2: #2b6f20;
+    --verde-fonte: #26631c;
+    --laranja: #ff9525;
+    --laranja-font: #ff9606;
+    --cinza: #efefef;
+}
+
+.verde {
+    color: var(--verde-fonte);
+}
