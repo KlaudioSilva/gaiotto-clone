@@ -28,7 +28,7 @@ This repository contains a **clone of the website from Gaiotto Materiais para Co
 
 ## 📸 Preview
 
-* (Adicionar uma imagem ou mostrando o visual do projeto ou o link do GitHub Pages quando for publicado)*
+* (por fazer)*
 
 ---
 

@@ -1,17 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/***  configurações iniciais   *******************************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open sans', Arial, sans-serif;
+}
+
 /***  pre-definindo cores   *******************************************/
 :root{
     --preto: #000000;
     --branco: #ffffff;
-    --verde-bg-claro1: #348528;
-    --verde-bg-claro2: #449137;
+    --verde-icon: #4b7421;
+    --verde-bg-claro: #2b750d;
     --verde-bg-escuro1: #1f5217;
     --verde-bg-escuro2: #2b6f20;
     --verde-fonte: #26631c;
-    --laranja: #ff9525;
+    --bg-navegacao: #ff9525;
     --laranja-font: #ff9606;
     --cinza: #efefef;
 }
 
-.verde {
-    color: var(--verde-fonte);
+/***  estrutura padrão   *********************************************/
+.estrutura{
+    width: calc(100% - 398px);
+    margin: 0 198px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 298px;
+    border: none;
+}
+
+.cabecalho-geral{
+    height: 159px;
+    padding-top: 80px;
+}
+
+.cabecalho-infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cabecalho-itens{
+    display: flex;
+    width: 346px;
+}
+
+.cabecalho-itens.whats{
+    justify-content: center;
+}
+
+.cabecalho-itens-txt{
+    display: flex;
+    width: 346px;
+    height: 105px;
+    padding-top: 10px;
+}
+
+.cabecalho-itens-txt h4{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cabecalho-itens-txt .verde{
+    color: var(--verde-icon);
+    font-size: 32px;
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* menu*/
+.menu-container{
+    background: var(--bg-navegacao);
+    height: 84px;
+    margin-top: 55px;
+}
+
+.menu-container nav{
+    width: 824px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 84px;
+}
+
+.main-nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu-container nav li{
+    position: relative;
+}
+
+.menu-container nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #444;
+    flex-direction: column;
+    min-width: 160px;
+}
+
+.menu-container nav .dropdown:hover .sub-menu {
+  display: flex;
+}
+
+.main-nav a{
+    color: var(--branco);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.txt-banner h3{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: var(--branco);
+}
+
+.banner-title{
+    background-color: var(--verde-bg-claro);
+}
+
+.txt-banner {
+  display: grid;
+  place-items: center;
+  height: 127px;
 }
